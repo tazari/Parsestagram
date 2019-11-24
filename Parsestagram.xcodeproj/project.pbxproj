@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18904356238A21DD0011F006 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18904355238A21DD0011F006 /* CameraViewController.swift */; };
 		18AE80DC237CA72900E3B20E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE80DB237CA72900E3B20E /* AppDelegate.swift */; };
 		18AE80DE237CA72900E3B20E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE80DD237CA72900E3B20E /* SceneDelegate.swift */; };
 		18AE80E3237CA72A00E3B20E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AE80E1237CA72900E3B20E /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18904355238A21DD0011F006 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		18AE80D8237CA72900E3B20E /* Parsestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parsestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AE80DB237CA72900E3B20E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18AE80DD237CA72900E3B20E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				18AE80E9237CA73100E3B20E /* Info.plist */,
 				18AE810B237D048A00E3B20E /* LoginViewController.swift */,
 				18AE810D237D049400E3B20E /* FeedViewController.swift */,
+				18904355238A21DD0011F006 /* CameraViewController.swift */,
 			);
 			path = Parsestagram;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18AE810C237D048A00E3B20E /* LoginViewController.swift in Sources */,
+				18904356238A21DD0011F006 /* CameraViewController.swift in Sources */,
 				18AE80DC237CA72900E3B20E /* AppDelegate.swift in Sources */,
 				18AE810E237D049400E3B20E /* FeedViewController.swift in Sources */,
 				18AE80DE237CA72900E3B20E /* SceneDelegate.swift in Sources */,
