@@ -147,7 +147,7 @@
                     <navigationItem key="navigationItem" id="icB-Hx-BPx">
                         <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="QGu-cM-6PQ">
                             <connections>
-                                <segue destination="Upq-Vh-qWd" kind="presentation" id="v7W-uz-Gvq"/>
+                                <segue destination="Upq-Vh-qWd" kind="presentation" modalPresentationStyle="fullScreen" id="v7W-uz-Gvq"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -164,7 +164,7 @@
             <objects>
                 <viewController id="Upq-Vh-qWd" customClass="CameraViewController" customModule="Parsestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XXT-sN-btZ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="l6Q-4U-vfk">
